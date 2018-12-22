@@ -1,7 +1,60 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<title>Bicycle Mart</title>
+	<link href="style.css" rel="stylesheet" type="text/css" media="screen">
+	<script type="text/javascript" src="jquery.min.js.download"></script>
+	<link href="icons.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+	<div class="wrapper">
+		<!--wrapper started-->
+		<div class="abovebanner">
+			<!-- above banner started -->
+			<div class="header">
+				<!-- header started-->
+				<h1 id="logo">bicycle<span>mart</span></h1>
+				<p class="line1">Gear up for the change.</p>
+			</div><!-- header ended-->
+
+			<div class="content">
+				<!-- content started-->
+				<p class="line1"></p><span>
+				</span>
+			</div><!-- content ended -->
+		</div><!-- above banner ended -->
+
+		<div class="belowbanner">
+			<div class="email">
+				<h2>email us</h2>
+				<p><a href="mailto:info@bicyclemart.in">info@bicyclemart.in</a></p>
+			</div>
+			<div class="call">
+				<h2>call us</h2>
+				<p>+91-9136687778</p>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		var placeholder = $("#test").val();
+
+		$("#test").keydown(function () {
+			if (this.value == placeholder) {
+				this.value = '';
+			}
+		}).blur(function () {
+			if (this.value == '') {
+				this.value = placeholder;
+			}
+		});
+	</script>
+
 </body>
+
 </html>
