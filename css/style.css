@@ -104,6 +104,12 @@ a:hover, a:focus {
     color: #FFF;
 }
 
+.white-text-tagline {
+    color: #FFF;
+    margin-top: -22px;
+    margin-left: 90px;
+}
+
 .black-text {
     color: #000;
 }
